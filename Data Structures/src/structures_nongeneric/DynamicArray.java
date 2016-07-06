@@ -23,7 +23,7 @@ public class DynamicArray{
 	
 	/**
 	 * Creates a DynamicArray of the indicated size.
-	 * @param size The size of the intitial array.
+	 * @param size The size of the initial array.
 	 */
 	public DynamicArray(int size){
 		this.size = size;
