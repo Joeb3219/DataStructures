@@ -5,10 +5,10 @@ import java.util.NoSuchElementException;
 public class Stack <T>{
 
 	public int size = 0;
-	private ArrList<T> arrList;
+	private DynamicArray<T> arrList;
 	
 	public Stack(){
-		arrList = new ArrList<T>();
+		arrList = new DynamicArray<T>();
 	}
 	
 	public void push(T obj){

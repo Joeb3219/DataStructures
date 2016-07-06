@@ -4,11 +4,11 @@ import java.util.NoSuchElementException;
 
 public class Queue<T> {
 
-	private ArrList<T> arrList;
+	private DynamicArray<T> arrList;
 	private int size = 0;
 	
 	public Queue(){
-		arrList = new ArrList<T>();
+		arrList = new DynamicArray<T>();
 	}
 	
 	public void enqueue(T obj){
